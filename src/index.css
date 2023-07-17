@@ -405,5 +405,78 @@ textarea {
   z-index: -1;
 }
 
+/* Styles for the Awards Page */
 
 
+.award-section {
+  flex: 0 0 calc(33.33% - 20px);  /* Flexbox properties to make each award section equal width */
+  background-color: #f9f9f9;
+  text-align: center;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  max-width: 400px;
+  min-width: 250px;
+  margin: 10px; /* Add margin to create space between sections */
+  
+}
+
+.award-section h2 {
+  color: var(--primary-color); /* Primary color for award section titles */
+  margin-bottom: 10px;
+}
+
+.award-section p {
+  margin: 5px;
+  color: var(--tertriary-color);
+}
+
+/* Optional: Center the entire content of the awards page vertically */
+.page-content3 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Change to flex-start */
+  flex-wrap: wrap; /* Add flex-wrap to allow wrapping of items */
+  height: 100vh;
+  padding-top: 60px;
+}
+
+.award-section img {
+  max-width: 200px; /* Adjust this value to control the image size */
+  min-width: 200px;
+  max-height: 150px; /* Adjust this value to control the image size */
+  margin-bottom: 10px;
+  
+}
+
+.statement {
+  flex: 1; /* Take up the available width in the flex container */
+   /* Set a maximum width if needed */
+  color: var(--secondary-color); /* Apply the relevant color */
+  margin: 10px; /* Add margin to create space between the sections */
+  text-align: center; /* Center the text horizontally */
+  padding: 20px; /* Add padding for some space around the text */
+}
+.statement p {
+  flex: 1; /* Take up the available width in the flex container */
+   /* Set a maximum width if needed */
+  color: var(--secondary-color); /* Apply the relevant color */
+  margin: 10px; /* Add margin to create space between the sections */
+  text-align: center; /* Center the text horizontally */
+  padding: 20px; /* Add padding for some space around the text */
+}
+
+@media screen and (max-width: 768px) {
+  .page-content {
+    justify-content: flex-start;
+    padding-left: 30px; /* Add some padding on the left to push the flex items to the center */
+  }
+
+  .award-section {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

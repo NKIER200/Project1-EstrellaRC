@@ -4,8 +4,10 @@ import Navigation from "./components/Navigation";
 import Homepage from "./Homepage";
 import AboutPlayersPage from "./components/AboutPlayersPage";
 import HonoursPage from "./components/HonoursPage";
+import AwardsPage from "./components/AwardsPage";
 import StadiumPage from "./components/StadiumPage";
 import ContactPage from "./components/ContactPage";
+
 import "./index.css"; // Import the CSS file for this component
 
 function App() {
@@ -17,6 +19,7 @@ function App() {
         <Route path="/home" element={<Homepage />} />
         <Route path="/about" element={<AboutPlayersPage />} />
         <Route path="/honours" element={<HonoursPage />} />
+        <Route path="/awards" element={<AwardsPage />} />
         <Route path="/stadium" element={<StadiumPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
