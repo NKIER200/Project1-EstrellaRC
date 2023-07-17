@@ -1,5 +1,6 @@
 import React from "react";
 import "../index.css"; // Import the CSS file for this component
+import backgroundImg from "../IMG_5817.jpeg";
 
 const HonoursPage = () => {
   return (
@@ -7,6 +8,10 @@ const HonoursPage = () => {
      
       
       <div className="page-content">
+      <div
+        className="background-image2"
+        style={{ backgroundImage: `url(${backgroundImg})` }}
+      ></div>
         <h1 className="gold">Honours</h1>
         <section>
           <h2 className="blu3">Leagues</h2>
@@ -29,6 +34,7 @@ const HonoursPage = () => {
           <p>Winners of Copa de la Cordoba - Season 2007/2008</p>
           <p>Winners of Copa de la Cordoba - Season 2009/2010</p>
           <p>Winners of Copa de la Cordoba - Season 2010/2011</p>
+          <p>Winners of Copa de Primera - Season 2023</p>
           </div>
           </div>
         </section>

@@ -14,7 +14,7 @@ const AboutPlayersPage = () => {
             <h3>Daniel Rojas</h3>
             <p>Position: Goalkeeper</p>
             <p>Jersey Number: 1</p>
-            <p>Appearences:34 </p>
+            <p>Appearences:41 </p>
             <p>Goals:0 </p>
             <p>Assists:0 </p>
             <p>Clean Sheets:4 </p>
@@ -23,7 +23,7 @@ const AboutPlayersPage = () => {
             <h3>Paolo Reyna</h3>
             <p>Position: Leftback/Left Midfielder</p>
             <p>Jersey Number: 2</p>
-            <p>Appearences: 17 </p>
+            <p>Appearences: 20 </p>
             <p>Goals: 1 </p>
             <p>Assists: 1 </p>
             <p>Clean Sheets: 0</p>
@@ -32,7 +32,7 @@ const AboutPlayersPage = () => {
             <h3>Guillermo Marín</h3>
             <p>Position: Centreback/Rightback</p>
             <p>Jersey Number: 3</p>
-            <p>Appearences: 38 </p>
+            <p>Appearences: 41 </p>
             <p>Goals: 3</p>
             <p>Assists: 1 </p>
             <p>Clean Sheets: 5</p>
@@ -42,7 +42,7 @@ const AboutPlayersPage = () => {
             <p>Position: Centreback</p>
             <p>Jersey Number: 4</p>
             <p>Captain</p>
-            <p>Appearences: 35</p>
+            <p>Appearences: 37</p>
             <p>Goals: 0</p>
             <p>Assists: 0</p>
             <p>Clean Sheets: 4</p>
@@ -51,8 +51,8 @@ const AboutPlayersPage = () => {
             <h3>Gabriel Marín</h3>
             <p>Position: Rightback</p>
             <p>Jersey Number: 5</p>
-            <p>Appearences: 39</p>
-            <p>Goals: 1</p>
+            <p>Appearences: 42</p>
+            <p>Goals: 2</p>
             <p>Assists: 0</p>
             <p>Clean Sheets: 6</p>
           </div>
@@ -78,26 +78,26 @@ const AboutPlayersPage = () => {
             <h3>Víctor Blanco</h3>
             <p>Position: CM/AM</p>
             <p>Jersey Number: 8</p>
-            <p>Appearences: 37</p>
+            <p>Appearences: 40</p>
             <p>Goals: 7</p>
-            <p>Assists: 6</p>
+            <p>Assists: 7</p>
             <p>Clean Sheets: 5</p>
           </div>
           <div className="player-profile">
             <h3>Sofiane Boufal</h3>
             <p>Position: CM/AM</p>
             <p>Jersey Number: 9</p>
-            <p>Appearences: 9</p>
-            <p>Goals: 8</p>
-            <p>Assists: 5</p>
+            <p>Appearences: 12</p>
+            <p>Goals: 11</p>
+            <p>Assists: 8</p>
             <p>Clean Sheets: 1</p>
           </div>
           <div className="player-profile2">
             <h3>Juan Carlos Cardona</h3>
             <p>Position: Striker</p>
             <p>Jersey Number: 11</p>
-            <p>Appearences: 27 </p>
-            <p>Goals: 19</p>
+            <p>Appearences: 30 </p>
+            <p>Goals: 21</p>
             <p>Assists: 5</p>
             <p>Clean Sheets: 2</p>
           </div>
@@ -124,7 +124,7 @@ const AboutPlayersPage = () => {
             <h3>Federico Pereira</h3>
             <p>Position: CB/RB </p>
             <p>Jersey Number: 14</p>
-            <p>Appearences: 13</p>
+            <p>Appearences: 16</p>
             <p>Goals: 0</p>
             <p>Assists: 0</p>
             <p>Clean Sheets: 1</p>
@@ -133,9 +133,9 @@ const AboutPlayersPage = () => {
             <h3>Luis Romo</h3>
             <p>Position: CM</p>
             <p>Jersey Number: 15</p>
-            <p>Appearences:37 </p>
-            <p>Goals: 11</p>
-            <p>Assists: 7</p>
+            <p>Appearences:40 </p>
+            <p>Goals: 12</p>
+            <p>Assists: 8</p>
             <p>Clean Sheets: 4</p>
           </div>
           <div className="player-profile">
@@ -160,7 +160,7 @@ const AboutPlayersPage = () => {
             <h3>Carlos Morales</h3>
             <p>Position: CM/AM</p>
             <p>Jersey Number: 18</p>
-            <p>Appearences: 16 </p>
+            <p>Appearences: 24 </p>
             <p>Goals: 2 </p>
             <p>Assists: 1 </p>
             <p>Clean Sheets: 1 </p>
@@ -179,9 +179,9 @@ const AboutPlayersPage = () => {
             <h3>Leonal Duarte</h3>
             <p>Position: CF/AM/ST</p>
             <p>Jersey Number: 21</p>
-            <p>Appearences: 37 </p>
-            <p>Goals: 21 </p>
-            <p>Assists: 11 </p>
+            <p>Appearences: 42 </p>
+            <p>Goals: 23 </p>
+            <p>Assists: 13 </p>
             <p>Clean Sheets: 4 </p>
           </div>
           <div className="player-profile2">
@@ -206,7 +206,7 @@ const AboutPlayersPage = () => {
             <h3>Yago Pardo</h3>
             <p>Position: ST/CF</p>
             <p>Jersey Number: 24</p>
-            <p>Appearences: 21 </p>
+            <p>Appearences: 22 </p>
             <p>Goals: 3 </p>
             <p>Assists: 5 </p>
             <p>Clean Sheets: 2 </p>
@@ -215,7 +215,7 @@ const AboutPlayersPage = () => {
             <h3>Cristian Medina</h3>
             <p>Position: CM</p>
             <p>Jersey Number: 25</p>
-            <p>Appearences: 26 </p>
+            <p>Appearences: 29 </p>
             <p>Goals: 3 </p>
             <p>Assists: 2 </p>
             <p>Clean Sheets: 1 </p>

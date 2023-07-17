@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navigation from "./components/Navigation";
 import Homepage from "./Homepage";
 import AboutPlayersPage from "./components/AboutPlayersPage";
+import Season from "./components/Season";
 import HonoursPage from "./components/HonoursPage";
 import AwardsPage from "./components/AwardsPage";
 import StadiumPage from "./components/StadiumPage";
@@ -18,6 +19,7 @@ function App() {
       <Routes>
         <Route path="/home" element={<Homepage />} />
         <Route path="/about" element={<AboutPlayersPage />} />
+        <Route path="/season" element={<Season />} />
         <Route path="/honours" element={<HonoursPage />} />
         <Route path="/awards" element={<AwardsPage />} />
         <Route path="/stadium" element={<StadiumPage />} />

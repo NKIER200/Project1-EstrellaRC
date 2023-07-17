@@ -1,3 +1,10 @@
+/* CSS Reset */
+body, h1, h2, h3, p, ul, li, form, input, textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -404,7 +411,19 @@ textarea {
   opacity: 0.5; /* Adjust the opacity as needed */
   z-index: -1;
 }
-
+.background-image2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url("./IMG_5817.jpeg");
+  
+  opacity: 0.5; /* Adjust the opacity as needed */
+  z-index: -1;
+}
 /* Styles for the Awards Page */
 
 
@@ -479,4 +498,8 @@ textarea {
     flex: 0 0 100%;
     max-width: 100%;
   }
+}
+.mainVid {
+  width: 100%;
+  height: 100%;
 }

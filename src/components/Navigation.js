@@ -13,6 +13,9 @@ const Navigation = () => {
           <Link to="/about">About Players</Link>
         </li>
         <li>
+          <Link to="/season">Season</Link>
+        </li>
+        <li>
           <Link to="/honours">Honours</Link>
         </li>
         <li>
