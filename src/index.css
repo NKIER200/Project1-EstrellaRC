@@ -5,9 +5,405 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Styles for the Estrella RC team */
+
+/* Set the background color */
+body {
+  background-color: #f7f7f7;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Define the team's primary colors */
+.gold {
+  color: #ffd700;
+}
+
+.azure-blue {
+  color: #007fff;
+}
+
+.silver {
+  color: #c0c0c0;
+}
+
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007fff;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333333;
+}
+
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffd700;
+  color: #333333;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #c0c0c0;
+  color: #333333;
+}
+
+/* styles.css */
+
+:root {
+  --primary-color: #ffd700; /* Gold */
+  --secondary-color: #0080ff; /* Azure Blue */
+  --tertriary-color:#c0c0c0; /* silver*/
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+
+
+
+.nav li {
+  margin-right: 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+.nav {
+  background-color: var(--primary-color);
+  padding: 10px;
+}
+
+
+
+.nav a.active {
+  color: var(--tertriary-color);
+}
+nav ul {
+  background-color: var(--primary-color);
+  margin: 0 !important;
+  padding-inline-start: 0%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 100% !important;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0.5%;
+
+}
+
+nav a {
+  text-decoration: none;
+  font-size: larger;
+  color: var(--secondary-color);
+
+}
+
+/* styles.css */
+
+.gold {
+  color: var(--primary-color); /* Gold */
+  font-size:40px;
+  text-align: center;
+}
+.gold2 {
+  color: var(--primary-color); /* Gold */
+  font-size:36px;
+  text-align: center;
+}
+.blu2 {
+  color: var(--secondary-color); /* Gold */
+  font-size:32px;
+  text-align: center;
+}
+.blu3 {
+  color: var(--secondary-color); /* Gold */
+  font-size:36px;
+  text-align: center;
+}
+.tert2 {
+  color: var(--tertriary-color); /* Gold */
+  font-size:12;
+  text-align: center;
+}
+.azure-blue {
+  color: var(--secondary-color); /* Azure Blue */
+}
+.stadium-info {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center the content */
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color)
+}
+
+.stadium-details {
+  margin-bottom: 20px;
+}
+
+.stadium-details h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: var(--secondary-color)
+}
+
+.stadium-details p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: var(--secondary-color)
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px; /* Add spacing above the title */
+}
+
+
+
+
+.page-content2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: var(--background-color);
+}
+
+
+
+.section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.azure-blue {
+  color: var(--secondary-color); /* Azure Blue */
+}
+
+.player-profiles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.hons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  min-width: 300px;
+}
+
+.player-profile {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  max-width: 400px;
+  min-width: 250px;
+}
+.leagues {
+  background-color: var(--tertriary-color);
+  color: var(--secondary-color);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  max-width: 500;
+  min-width: 250;
+}
+.leagues h3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: var(--secondary-color);
+}
+.leagues p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: var(--secondary-color);
+}
+.cups {
+  background-color: var(--tertriary-color);
+  color: var(--primary-color);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  max-width: 700;
+  min-width: 400;
+}
+.cups h3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: var(--primary-color);
+}
+.cups p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: var(--primary-color);
+}
+
+.player-profile2 {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  max-width: 400px;
+  min-width: 250px;
+}
+
+.player-profile h3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: var(--secondary-color);
+}
+.player-profile2 h3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: var(--primary-color);
+}
+
+.player-profile p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: var(--secondary-color);
+}
+.player-profile2 p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: var(--primary-color);
+}
+.league-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.league-table th,
+.league-table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.league-table th {
+  background-color: var(--tertriary-color);
+}
+
+.league-table tbody tr:nth-child(even) {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 150px;
+}
+
+.submit-button {
+  background-color: #2a71d0;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.success-message {
+  color: green;
+  margin-top: 1rem;
+}
+
+.stadium-page {
+  position: relative;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url("./IMG_5808.jpeg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5; /* Adjust the opacity as needed */
+  z-index: -1;
+}
+
+
+

@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navigation from "./components/Navigation";
+import Homepage from "./Homepage";
+import AboutPlayersPage from "./components/AboutPlayersPage";
+import HonoursPage from "./components/HonoursPage";
+import StadiumPage from "./components/StadiumPage";
+import ContactPage from "./components/ContactPage";
+import "./index.css"; // Import the CSS file for this component
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Navigation />
+
+      <Routes>
+        <Route path="/home" element={<Homepage />} />
+        <Route path="/about" element={<AboutPlayersPage />} />
+        <Route path="/honours" element={<HonoursPage />} />
+        <Route path="/stadium" element={<StadiumPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
 export default App;
+
