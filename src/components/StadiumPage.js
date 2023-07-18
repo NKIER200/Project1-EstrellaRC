@@ -15,7 +15,7 @@ const StadiumPage = () => {
         <div className="stadium-info">
           <div className="stadium-details">
             <p>Location: Río Cuarto, Argentina</p>
-            <p>Capacity: 22,000</p>
+            <p>Capacity: 27,156</p>
             <p>
               The stadium began construction in late 1975, with hopes of the
               venue being used for the upcoming 1978 World Cup. However, due to

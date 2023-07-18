@@ -336,6 +336,66 @@ const Season = () => {
   </tbody>
 </table>
 <section>
+<h2 className="blu2">Copa Libertadores 2024</h2>
+</section>
+<table className="league-table">
+  <thead>
+    <tr>
+      <th>Team</th>
+      <th>Played</th>
+      <th>Won</th>
+      <th>Drawn</th>
+      <th>Lost</th>
+      <th>Goals For</th>
+      <th>Goals Against</th>
+      <th>Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>ESTRELLA RÍO CUARTO</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    </tr>
+    <tr>
+      <td>Goiás</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Club Magallanes</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Guarani</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+   
+  </tbody>
+</table>
+<section>
   <h2 className="blu2">Copa De Primera 2024</h2>
 </section>
 <table className="league-table">

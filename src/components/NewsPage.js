@@ -47,6 +47,12 @@ const NewsPage = () => {
         date: "2023-01-30",
         content: "",
       },
+      {
+        id: 8,
+        title: "Copa Libertadores Debut",
+        date: "2023-01-30",
+        content: "",
+      },
     
   ];
 
