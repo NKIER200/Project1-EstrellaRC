@@ -158,6 +158,11 @@ nav a {
   font-size:36px;
   text-align: center;
 }
+.gold3 {
+  color: var(--primary-color); /* Gold */
+  font-size:24px;
+  
+}
 .blu2 {
   color: var(--secondary-color); /* Gold */
   font-size:32px;
@@ -263,6 +268,26 @@ nav a {
   max-width: 400px;
   min-width: 250px;
 }
+.leaguestats{
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  max-width: 500px;
+  min-width: 300px;
+}
+.cupstats {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  max-width: 500px;
+  min-width: 300px;
+}
 .leagues {
   background-color: var(--tertriary-color);
   color: var(--secondary-color);
@@ -299,6 +324,26 @@ nav a {
   color: var(--primary-color);
 }
 .cups p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: var(--primary-color);
+}
+.leaguestats h3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: var(--secondary-color);
+}
+.leaguestats p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: var(--secondary-color);
+}
+.cupstats h3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: var(--primary-color);
+}
+.cupstats p {
   margin: 5px 0;
   font-size: 16px;
   color: var(--primary-color);
@@ -504,4 +549,105 @@ textarea {
 .mainVid {
   width: 100%;
   height: 100%;
+}
+
+/*  NewsPage CSS */
+.news-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff; 
+  color: var(--secondary-color); 
+}
+
+
+.news-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 80%;
+}
+
+/* Styling for each news article link */
+.news-item {
+  margin-bottom: 10px;
+}
+
+
+
+
+.news-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--primary-color); 
+  text-align: center;
+}
+
+.news-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.news-article-container {
+  background-color: var(--secondary-color); 
+  color: var(--primary-color); 
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.news-link {
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--primary-color); 
+}
+
+.news-link:hover {
+  background-color: var(--tertriary-color); 
+}
+ /*News Article css*/
+
+.news-article {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.news-article h1 {
+  font-size: 24px;
+  color: #007fff; 
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.news-article-details {
+  margin-bottom: 10px;
+}
+
+.news-article-date {
+  font-size: 14px;
+  color: #c0c0c0; 
+  text-align: center;
+}
+
+.news-article-content {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333333;
 }

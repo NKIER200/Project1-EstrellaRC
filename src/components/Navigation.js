@@ -16,6 +16,9 @@ const Navigation = () => {
           <Link to="/season">Season</Link>
         </li>
         <li>
+          <Link to="/news">News</Link>
+        </li>
+        <li>
           <Link to="/honours">Honours</Link>
         </li>
         <li>

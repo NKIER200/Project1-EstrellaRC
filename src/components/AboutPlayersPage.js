@@ -249,7 +249,7 @@ const AboutPlayersPage = () => {
           </div>
         </div>
       </section>
-      <section>
+      <section className='leaguestats'>
         <h2 className="azure-blue">Team Statistics 2023 League season</h2>
         <p>Matches Played: 27</p>
         <p>Goals Scored: 58</p>
@@ -260,8 +260,8 @@ const AboutPlayersPage = () => {
         <p>YPOTY:Duarte</p>
         <p>Honours won: N/A</p>
       </section>
-      <section>
-        <h2 className="azure-blue">Team Statistics 2023 Copa De Primera season</h2>
+      <section className='cupstats'>
+        <h2 className="gold3">Team Statistics 2023 Copa De Primera season</h2>
         <p>Matches Played: 13</p>
         <p>Goals Scored: 38</p>
         <p>Assists: 27</p>
