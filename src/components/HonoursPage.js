@@ -22,6 +22,7 @@ const HonoursPage = () => {
           <p>Champion of Torneo Federal A - Season 2015/2016</p>
           <p>Champion of Torneo Federal A - Season 2018/2019</p>
             <p>Champion of Primera B Nacional - Season 2021/2022</p>
+            <p>Champion of LPF - Season 2024</p>
             {/* Add more trophy names as needed */}
           </div>
           <h2 className="gold2">Cups</h2>

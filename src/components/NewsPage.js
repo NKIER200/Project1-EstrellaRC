@@ -53,6 +53,12 @@ const NewsPage = () => {
         date: "2023-01-30",
         content: "",
       },
+      {
+        id: 9,
+        title: "League Champions!",
+        date: "2023-01-30",
+        content: "",
+      },
     
   ];
 

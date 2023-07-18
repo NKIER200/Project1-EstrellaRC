@@ -2,6 +2,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import "../index.css"; 
+import articleImagetitle from "../IMG_5842.JPG"; 
 const NewsArticle = () => {
   const { id } = useParams();
 
@@ -51,9 +52,24 @@ const NewsArticle = () => {
       {
         id: 8,
         title: "Copa Libertadores Debut",
-        date: "2023-01-30",
+        date: "2023-04-10",
         content: "In a historic moment for Estrella RC, the club made its much-anticipated debut in the prestigious Copa Libertadores, a competition that would test their mettle against some of South America's finest teams. Taking to the field away from home, the players were determined to make a statement and leave an indelible mark on the continent's most illustrious tournament. The match began with an air of anticipation, and it didn't take long for Estrella RC to announce their arrival on the continental stage. In the 16th minute, Pardo showcased his clinical finishing skills, slotting home the club's first-ever goal in the Copa Libertadores. The fans erupted in joy, celebrating this historic milestone in the club's journey. As the game progressed, Estrella RC continued to display their attacking prowess and determination. In the 60th minute, Blanco unleashed a powerful shot from outside the box, doubling the lead and leaving the opposition stunned. The players' camaraderie and teamwork were on full display, as they showcased their ability to control the game with confidence and skill. In the 72nd minute, Duarte further solidified Estrella RC's dominance, scoring a crucial third goal that all but sealed the victory. The celebrations grew louder, and the fans could feel the pride and joy of witnessing their beloved club excel on the grand stage. But Estrella RC wasn't done yet. With the clock ticking towards the end of the match, Boufal added to the tally, netting the fourth goal in the 89th minute. The supporters' jubilation echoed through the stadium as they recognized the significance of this remarkable performance. The players continued to press forward, demonstrating their hunger for more success. In stoppage time, Iglesias delivered the final blow, finding the back of the net to make it 5-0 in favor of Estrella RC. The final whistle marked not just a resounding victory, but a moment of pride for every player, fan, and member of the Estrella RC family. The club's debut in the Copa Libertadores was nothing short of a dream start—a statement of intent that reverberated throughout South America. Estrella RC had arrived on the continental stage, leaving an unforgettable impression with their attacking flair, defensive solidity, and unwavering determination. As the tournament progressed, the world would continue to witness the rise of this formidable team, ready to take on any challenge and etch their name in the annals of Copa Libertadores history.",
       },
+      {
+        id: 9,
+        title: "League Champions!",
+        date: "2023-07-20",
+        content: (<>
+            <p>
+            On a historic day that will forever be etched in the hearts of Estrella RC's fans, the club achieved an exhilarating 5-1 victory in the long-awaited derby match, securing their first-ever league title. The tension and anticipation in the stadium were palpable as the players took to the field, fully aware of the weight of the moment. The breakthrough came early in the game when Sofiane Boufal unleashed a thunderous strike, sending the crowd into a frenzy. However, it was Duarte's moment of brilliance that stole the show as he embarked on an awe-inspiring solo run from his own half, gracefully weaving through the opposition's defense, and slotting the ball into the back of the net with remarkable finesse. The stadium erupted with deafening cheers, celebrating the club's Player of the Year and Young Player of the Year in a manner befitting his truly exceptional talents.
+            </p>
+            <img src={articleImagetitle} alt="News" className="news-article-image" style={{ width: "500px", height: "auto" }} />
+            <p>
+            As the match progressed, Estrella RC's dominance was undeniable, and it was evident that destiny was on their side. In a stunning display of skill and composure, Bouanga executed a jaw-dropping turnaround chip that left the goalkeeper rooted to the spot, further extending the lead. The fans' excitement reached new heights when Pardo, a living legend of the club, was brought on in the 85th minute. In a fairytale ending to his illustrious career at Estrella RC, Pardo etched his name into the annals of history with two sublime goals in the 87th and 89th minutes, sealing the victory and sparking jubilant celebrations across the stadium. Tears of joy flowed freely as the final whistle blew, and the players embraced, realizing that they had not only won the league title but also etched their names in the hearts of millions of devoted fans. This unforgettable triumph marked the beginning of a new era of greatness for Estrella RC, a triumph that will resonate for generations to come.
+            </p>
+          </>),
+      },
+    
     
   ];
 
