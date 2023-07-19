@@ -408,6 +408,74 @@ nav a {
   flex-direction: column;
   align-items: center;
 }
+.libertadoresHead {
+  color: #D4AF37; /* Gold */
+  font-size:32px;
+  text-align: center;
+}
+.libertadores-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: black;
+  color: #D4AF37;
+}
+
+.libertadores-table th,
+.libertadores-table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.libertadores-table th {
+  background-color: #D4AF37;
+  color: black;
+}
+
+.libertadores-table tbody tr:nth-child(even) {
+  background-color: #D4AF37;
+  color: black;
+}
+/* Add your desired styles here */
+.tournament-bracket {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  min-height: 100px;
+}
+
+.round {
+  display: flex;
+  margin-bottom: 20px;
+  min-height: 100px;
+}
+
+.match {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  margin-right: 20px;
+  min-height: 100px;
+}
+
+.team {
+  background-color: black;
+  color: #D4AF37;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+  text-align: center;
+  min-height: 50px;
+}
+
+.score {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+
 
 label {
   font-weight: bold;

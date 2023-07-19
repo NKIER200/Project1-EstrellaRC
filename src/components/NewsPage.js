@@ -59,6 +59,12 @@ const NewsPage = () => {
         date: "2023-01-30",
         content: "",
       },
+      {
+        id: 10,
+        title: "Libertadores: A Chance at History",
+        date: "2023-10-10",
+        content: "",
+      },
     
   ];
 

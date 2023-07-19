@@ -69,6 +69,28 @@ const NewsArticle = () => {
             </p>
           </>),
       },
+      {
+        id: 10,
+        title: "Libertadores: A Chance at History",
+        date: "2023-10-10",
+        content: (<>
+            <p>
+            In an awe-inspiring display of footballing prowess, Estrella RC embarked on an extraordinary Copa Libertadores run, etching their name in the history books with a trailblazing journey to the final. With every match, the club's stars shone brightly, none more so than the formidable Bouanga, whose heroics proved instrumental in carrying the team forward.
+            </p>
+            <p>
+            The Round of 16 witnessed Bouanga's brilliance come to the fore as he notched an impressive three goals and provided a crucial assist, propelling Estrella RC to a convincing victory. The quarter-finals brought a formidable challenge in Olimpia, but the club demonstrated their mettle and prowess, delivering an emphatic 8-3 aggregate win. The 5-1 away triumph in the first leg showcased Estrella RC's attacking flair and determination, leaving their opponents shell-shocked. 
+            </p>
+            <p>
+            As the journey progressed to the semi-finals against Nacional, Estrella RC displayed utter dominance. The first leg saw a commanding 3-0 victory, with Pardo emerging as the Man of the Match, stunning the opposition with two crucial goals. Such was their dominance that they comfortably rotated the side in the second half, demonstrating the depth of their squad.
+            </p>
+            <p>
+            With one foot in the final, Estrella RC continued their mesmerizing form in the second leg, storming to a 3-0 lead in the first half, courtesy of Pardo's sensational brace. The fans erupted in jubilation as Pardo completed his hattrick in the late second half, sealing an astonishing 7-0 aggregate victory to secure their place in the Conmebol Libertadores final for the first time in the club's storied history.
+            </p>
+            <p>
+            Now, standing on the cusp of greatness, Estrella RC prepares to face Palmeiras in the final, a monumental occasion that promises to be a nerve-wracking yet exhilarating spectacle. The world will be watching as these two footballing giants lock horns in an epic clash for South American supremacy. Estrella RC's journey to the final stands as a testament to their resilience, teamwork, and unwavering belief, and as they march on to the grand finale, they carry with them the dreams and hopes of an entire footballing nation. Regardless of the final outcome, Estrella RC has already won the hearts of fans worldwide, proving that with determination and grit, they can conquer any challenge that comes their way. 
+            </p>
+          </>),
+      },
     
     
   ];

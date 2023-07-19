@@ -7,7 +7,141 @@ const Season = () => {
     <div>
     
       <h1 className="gold">The Comets are League Champions!</h1>
-      
+      <section>
+<h2 className="libertadoresHead">Copa Libertadores 2024</h2>
+</section>
+<table className="libertadores-table">
+  <thead>
+    <tr>
+      <th>Team</th>
+      <th>Played</th>
+      <th>Won</th>
+      <th>Drawn</th>
+      <th>Lost</th>
+      <th>Goals For</th>
+      <th>Goals Against</th>
+      <th>Goals Difference</th>
+      <th>Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>ESTRELLA RÍO CUARTO</td>
+    <td>6</td>
+    <td>4</td>
+    <td>2</td>
+    <td>0</td>
+    <td>19</td>
+    <td>8</td>
+    <td>11</td>
+    <td>14</td>
+    </tr>
+    <tr>
+      <td>Goiás</td>
+      <td>6</td>
+      <td>2</td>
+      <td>3</td>
+      <td>1</td>
+      <td>7</td>
+      <td>7</td>
+      <td>0</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>Club Magallanes</td>
+      <td>6</td>
+      <td>1</td>
+      <td>3</td>
+      <td>2</td>
+      <td>6</td>
+      <td>9</td>
+      <td>-3</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>Guarani</td>
+      <td>6</td>
+      <td>0</td>
+      <td>2</td>
+      <td>4</td>
+      <td>4</td>
+      <td>12</td>
+      <td>-8</td>
+      <td>2</td>
+    </tr>
+   
+  </tbody>
+</table>
+<div class="tournament-bracket">
+    <div class="round round-1">
+      <div class="match">
+        <div class="team">Santos v Atlético Minero</div>
+        <div class="score">1-2</div>
+      </div>
+      <div class="match">
+        <div class="team">Internacional v Millonarios</div>
+        <div class="score">4-2</div>
+      </div>
+      <div class="match">
+        <div class="team">Nacional v Goiás</div>
+        <div class="score">3-2</div>
+      </div>
+      <div class="match">
+        <div class="team">Olimpia FC v IDV FC</div>
+        <div class="score">3-2</div>
+      </div>
+      <div class="match">
+        <div class="team">Racing Club v Boca</div>
+        <div class="score">0-5</div>
+      </div>
+      <div class="match">
+        <div class="team">ESTRELLA RC v The Strongest</div>
+        <div class="score">5-1</div>
+      </div>
+      <div class="match">
+        <div class="team">Palmeiras v Caracas</div>
+        <div class="score">3-2</div>
+      </div>
+      <div class="match">
+        <div class="team">Fluminense v Penarol</div>
+        <div class="score">4-1</div>
+      </div>
+    </div>
+    <div class="round round-2">
+      <div class="match">
+        <div class="team">Fluminense v Palmeiras</div>
+        <div class="score">2(3)-2(4)</div>
+      </div>
+      <div class="match">
+        <div class="team">ESTRELLA RC v Olimpia</div>
+        <div class="score">8-3</div>
+      </div>
+      <div class="match">
+        <div class="team">Boca v Internacional</div>
+        <div class="score">3-0</div>
+      </div>
+      <div class="match">
+        <div class="team">Nacional v Minero</div>
+        <div class="score">3-1</div>
+      </div>
+    </div>
+    <div class="round round-3">
+      <div class="match">
+        <div class="team">Boca v Palmeiras</div>
+        <div class="score">2(3)-2(4)</div>
+      </div>
+      <div class="match">
+        <div class="team">ESTRELLA RC v Nacional</div>
+        <div class="score">7-0</div>
+      </div>
+    </div>
+    <div class="round round-final">
+      <div class="match">
+        <div class="team">ESTRELLA RC v Palmeiras</div>
+        <div class="score">tbc</div>
+      </div>
+    </div>
+  </div>
       <h2 className="blu2">2024 League Table</h2>
       <table className="league-table">
         
@@ -333,66 +467,6 @@ const Season = () => {
       <td>-26</td>
       <td>19</td>
     </tr>
-  </tbody>
-</table>
-<section>
-<h2 className="blu2">Copa Libertadores 2024</h2>
-</section>
-<table className="league-table">
-  <thead>
-    <tr>
-      <th>Team</th>
-      <th>Played</th>
-      <th>Won</th>
-      <th>Drawn</th>
-      <th>Lost</th>
-      <th>Goals For</th>
-      <th>Goals Against</th>
-      <th>Points</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-    <td>ESTRELLA RÍO CUARTO</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    <td>0</td>
-    </tr>
-    <tr>
-      <td>Goiás</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>Club Magallanes</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>Guarani</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-   
   </tbody>
 </table>
 <section>
