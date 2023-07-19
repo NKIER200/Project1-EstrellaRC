@@ -250,25 +250,26 @@ const AboutPlayersPage = () => {
         </div>
       </section>
       <section className='leaguestats'>
-        <h2 className="azure-blue">Team Statistics 2023 League season</h2>
+        <h2 className="azure-blue">Team Statistics 2024 League season</h2>
         <p>Matches Played: 27</p>
-        <p>Goals Scored: 58</p>
-        <p>Assists: 21</p>
-        <p>Top Scorer: Duarte, 13 Goals</p>
-        <p>Top Assister: Blanco, 4 Assists</p>
-        <p>POTY:Cardona</p>
+        <p>Goals Scored: 60</p>
+        <p>Assists: 43</p>
+        <p>Top Scorer: Duarte, 19 Goals</p>
+        <p>Top Assister: Duarte, 10 Assists</p>
+        <p>League POTY: Pardo</p>
+        <p>Club POTY: Duarte</p>
         <p>YPOTY:Duarte</p>
-        <p>Honours won: N/A</p>
+        <p>League Champions</p>
       </section>
       <section className='cupstats'>
-        <h2 className="gold3">Team Statistics 2023 Copa De Primera season</h2>
-        <p>Matches Played: 13</p>
-        <p>Goals Scored: 38</p>
-        <p>Assists: 27</p>
-        <p>Top Scorer: Cardona, 9 Goals</p>
-        <p>Top Assister: Duarte, 7 Assists</p>
-        <p>POTY: Sofiane Boufal</p>
-        <p>YPOTY: Duarte</p>
+        <h2 className="gold3">Team Statistics 2024 Copa De Primera season</h2>
+        <p>Matches Played: </p>
+        <p>Goals Scored: </p>
+        <p>Assists: </p>
+        <p>Top Scorer: </p>
+        <p>Top Assister: </p>
+        <p>POTY: </p>
+        <p>YPOTY: </p>
         <p>Playoffs: Qualified</p>
       </section>
     </div>
