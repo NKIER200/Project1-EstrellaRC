@@ -6,7 +6,7 @@ const Season = () => {
     
     <div>
     
-      <h1 className="gold">The Comets are League Champions!</h1>
+      <h1 className="truegold1">The Comets are Libertadores Champions!</h1>
       <section>
 <h2 className="libertadoresHead">Copa Libertadores 2024</h2>
 </section>
@@ -138,7 +138,7 @@ const Season = () => {
     <div class="round round-final">
       <div class="match">
         <div class="team">ESTRELLA RC v Palmeiras</div>
-        <div class="score">tbc</div>
+        <div class="score">5(5)-5(4)A.E.T</div>
       </div>
     </div>
   </div>

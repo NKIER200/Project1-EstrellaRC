@@ -4,7 +4,7 @@ import '../index.css';
 const AboutPlayersPage = () => {
   return (
     <div className="page-content2">
-      <h1 className="gold">About Players</h1>
+      <h1 className="truegold1">About Players</h1>
       <section>
       <div className="section-container">
     <h2 className="azure-blue">Player Profiles 2023 Season</h2>

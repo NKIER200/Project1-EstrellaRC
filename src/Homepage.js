@@ -6,7 +6,7 @@ const Homepage = () => {
   return (
     
     <div className='mainVid'>
-      <h1 className="gold">Welcome to Estrella RC</h1>
+      <h1 className="truegold1">Welcome to Estrella RC</h1>
       <h2 className="tert2">Explore the world of our football club!</h2>
       
 

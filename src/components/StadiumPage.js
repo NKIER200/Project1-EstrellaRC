@@ -11,7 +11,7 @@ const StadiumPage = () => {
       ></div>
 
       <div className="page-content">
-        <h1 className="gold">Estadio Celeste</h1>
+        <h1 className="truegold1">Estadio Celeste</h1>
         <div className="stadium-info">
           <div className="stadium-details">
             <p>Location: Río Cuarto, Argentina</p>

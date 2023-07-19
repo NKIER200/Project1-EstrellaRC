@@ -3,6 +3,10 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import "../index.css"; 
 import articleImagetitle from "../IMG_5842.JPG"; 
+import articleImagelib from "../IMG_5860.jpeg"; 
+import libertadores4 from '../1896fec44901-master_playlist.MP4'
+import libertadores5 from '../1896fea4e8844-master_playlist.MP4'
+import libertadorespen from '../1896fea4c1955-master_playlist.MP4'
 const NewsArticle = () => {
   const { id } = useParams();
 
@@ -91,6 +95,46 @@ const NewsArticle = () => {
             </p>
           </>),
       },
+      {
+        id: 11,
+        title: "WE HAVE NO WORDS" ,
+        date: "2023-10-10",
+        content: (<>
+            <p>
+            AHHHHHHHHHHHHHHH</p>
+          </>),
+      },
+      {
+        id: 12,
+        title: "League Champions!",
+        date: "2023-07-20",
+        content: (<>
+            <p>
+            Estrella RC's journey to their first Conmebol Libertadores final was filled with heart-stopping moments and incredible displays of talent. The atmosphere was electric as the team stepped onto the grand stage, knowing that history awaited them. Right from the start, Estrella had a golden opportunity to take the lead in the second minute, but Pardo's shot narrowly missed the mark, setting the tone for a dramatic encounter. However, the early stages of the final were not in Estrella's favor, as they found themselves trailing 3-0 within the first 21 minutes due to a devastating Fredditinho hattrick. Undeterred, Pardo displayed his resilience, scoring a crucial goal in the 35th minute to reduce the deficit after missing a significant chance just moments earlier. The fans' hopes were reignited, and the momentum began to shift in Estrella's favor.
+            </p>
+            <br />
+            <p>
+            In the second half, Pardo continued to be the catalyst for his team's fightback. In the 64th minute, he found the back of the net again, bringing the score to 3-2 and adding to the tension in the stadium. However, a swift counter-attack from Palmeiras led to their fourth goal, making it 4-2 and putting Estrella on the back foot once more. Pardo, determined to make his mark, completed his own hattrick in the 82nd minute, scoring a third chance shot from a corner to make it 4-3. The excitement was palpable, and the fans erupted in celebration. As the clock ticked down, Pardo was subbed off for Boufal, and Duarte moved to striker. In the 88th minute, as the match seemed to be slipping away, a dramatic turn of events unfolded. Estrella launched a counter-attack from a corner, and in a flurry of scrappy play and rapid possession changes, Duarte received the ball just inside Palmeiras' half. What followed was a mesmerizing solo run, as Duarte weaved past defenders with precision, slotting the ball into the bottom right corner to make it 4-4.
+            </p>
+            <video src={libertadores4} autoPlay loop controls alt="first-equalisier" className="news-article-video1" style={{ width: "500px", height: "auto" }} />
+<p>
+With the score level at the end of regular time, the final headed into extra time, and the intensity reached new heights. In the 9th minute of extra time, Estrella's hopes took a hit as Cabrais scored to give Palmeiras the lead once again. But Estrella RC's resilience knew no bounds, and substitute Bouanga rose to the occasion, equalizing in the 11th minute to keep their dreams alive.
+</p>
+<video src={libertadores5} autoPlay loop controls alt="second-equalisier" className="news-article-video2" style={{ width: "500px", height: "auto" }} />
+<br />
+<p>
+As the game went to penalties, the tension in the stadium was palpable. Estrella's goalkeeper, Mier, emerged as the hero, making two crucial saves to give his team the advantage. Medina seized the opportunity and calmly slotted the ball down the middle, securing the winning penalty and etching Estrella RC's name in history as Conmebol Libertadores champions.
+</p>
+<video src={libertadorespen} autoPlay loop controls alt="medina-penalty" className="news-article-video3" style={{ width: "500px", height: "auto" }} />
+<br />
+<p>
+The celebrations that followed were nothing short of euphoric, as players and fans alike rejoiced in the triumph. Estrella RC had defied all odds, showing remarkable spirit, talent, and determination throughout their Libertadores run. The victory was a testament to the team's never-say-die attitude, and it marked a historic moment in the club's illustrious history. For Estrella RC, this first Conmebol Libertadores triumph was not just a title; it was a symbol of the indomitable spirit that will forever be associated with this club.
+</p>
+<img src={articleImagelib} alt="libtrophy" className="news-article-libtrophy" style={{ width: "500px", height: "auto" }} />
+           
+</>),
+      },
+      
     
     
   ];

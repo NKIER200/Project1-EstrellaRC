@@ -12,30 +12,21 @@ const HonoursPage = () => {
         className="background-image2"
         style={{ backgroundImage: `url(${backgroundImg})` }}
       ></div>
-        <h1 className="gold">Honours</h1>
+        <h1 className="truegold1">Honours</h1>
         <section>
-          <h2 className="blu3">Leagues</h2>
+          <h2 className="blu3">Major League Titles</h2>
           <div className="hons">
           <div className="leagues">
-          <p>Champion of Torneo Federal C - Season 2007/2008</p>
-          <p>Champion of Torneo Federal B - Season 2010/2011</p>
-          <p>Champion of Torneo Federal A - Season 2015/2016</p>
-          <p>Champion of Torneo Federal A - Season 2018/2019</p>
-            <p>Champion of Primera B Nacional - Season 2021/2022</p>
             <p>Champion of LPF - Season 2024</p>
             {/* Add more trophy names as needed */}
           </div>
-          <h2 className="gold2">Cups</h2>
+          <h2 className="gold2">Domestic Major Cups</h2>
           <div className="cups">
-          <p>Winners of Copa de la Cordoba - Season 2000/2001</p>
-          <p>Winners of  Copa de la Cordoba - Season 2001/2002</p>
-          <p>Winners of Copa de la Cordoba - Season 2003/2004</p>
-          <p>Winners of Copa de la Cordoba - Season 2004/2005</p>
-          <p>Winners of Copa de la Cordoba - Season 2005/2006</p>
-          <p>Winners of Copa de la Cordoba - Season 2007/2008</p>
-          <p>Winners of Copa de la Cordoba - Season 2009/2010</p>
-          <p>Winners of Copa de la Cordoba - Season 2010/2011</p>
           <p>Winners of Copa de Primera - Season 2023</p>
+          </div>
+          <h2 className="truegold">Continental Cups</h2>
+          <div className="Continental">
+          <p>Winners of Conmebol Libertadores - Season 2024</p>
           </div>
           </div>
         </section>

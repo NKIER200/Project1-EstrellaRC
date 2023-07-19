@@ -65,6 +65,18 @@ const NewsPage = () => {
         date: "2023-10-10",
         content: "",
       },
+      {
+        id: 11,
+        title: "WE HAVE NO WORDS",
+        date: "2023-10-10",
+        content: "",
+      },
+      {
+        id: 12,
+        title: "WE ARE CONEMBOL LIBERTADORES CHAMPIONS",
+        date: "2023-10-10",
+        content: "",
+      },
     
   ];
 
@@ -73,7 +85,7 @@ const NewsPage = () => {
 
   return (
     <div className="news-page">
-      <h1 className="title">Club News</h1>
+      <h1 className="truegold1">Club News</h1>
       <div className="news-list">
         {sortedNews.map((article) => (
           <div key={article.id} className="news-article-container">

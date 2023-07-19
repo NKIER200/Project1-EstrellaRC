@@ -16,7 +16,7 @@ const ContactPage = () => {
 
   return (
     <div className="page-content">
-      <h1 className="gold">Contact</h1>
+      <h1 className="truegold1">Contact</h1>
       <div className="contact-form">
         {submitted ? (
           <p className="success-message">

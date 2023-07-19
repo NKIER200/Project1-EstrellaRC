@@ -146,31 +146,41 @@ nav a {
 
 }
 
-/* styles.css */
+
 
 .gold {
-  color: var(--primary-color); /* Gold */
+  color: var(--primary-color); 
   font-size:40px;
   text-align: center;
 }
 .gold2 {
-  color: var(--primary-color); /* Gold */
+  color: var(--primary-color); 
   font-size:36px;
   text-align: center;
 }
 .gold3 {
-  color: var(--primary-color); /* Gold */
+  color: var(--primary-color); 
   font-size:24px;
   
 }
 .blu2 {
-  color: var(--secondary-color); /* Gold */
+  color: var(--secondary-color); 
   font-size:32px;
   text-align: center;
 }
 .blu3 {
-  color: var(--secondary-color); /* Gold */
+  color: var(--secondary-color); 
   font-size:36px;
+  text-align: center;
+}
+.truegold {
+  color: #D4AF37; /* Gold */
+  font-size:36px;
+  text-align: center;
+}
+.truegold1 {
+  color: #D4AF37; /* Gold */
+  font-size:50px;
   text-align: center;
 }
 .tert2 {
@@ -307,6 +317,27 @@ nav a {
   margin: 5px 0;
   font-size: 16px;
   color: var(--secondary-color);
+}
+
+.Continental {
+  background-color: black;
+  color: #D4AF37;;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  max-width: 700;
+  min-width: 400;
+}
+.Continental h3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #D4AF37;;
+}
+.Continental p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #D4AF37;
 }
 .cups {
   background-color: var(--tertriary-color);

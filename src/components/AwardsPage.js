@@ -8,7 +8,7 @@ import playerOfYearImage from "../IMG_5813.jpeg";
 const AwardsPage = () => {
   return (
     <div>
-        <h1 className="gold">Awards</h1>
+        <h1 className="truegold1">Awards</h1>
         
       <div className="page-content3">
       <section className="award-section">
