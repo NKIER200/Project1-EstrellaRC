@@ -9,8 +9,6 @@ const ContactPage = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Logic to handle form submission (e.g., send email, save data, etc.)
-    // You can add your own implementation here
     setSubmitted(true);
   };
 
