@@ -5,13 +5,17 @@ import "../index.css"; // Import the CSS file for this component
 const StadiumPage = () => {
   return (
     <div className="stadium-page">
-      <div
-        className="background-image"
-        style={{ backgroundImage: `url(${backgroundImg})` }}
-      ></div>
-
+      <div className="background-image-wrapper">
+        <div
+          className="background-image"
+          style={{ backgroundImage: `url(${backgroundImg})` }}
+        ></div>
+    <div>
+          <h1 className="truegold1">Estadio Celeste</h1>
+         
+        </div>
+      </div>
       <div className="page-content">
-        <h1 className="truegold1">Estadio Celeste</h1>
         <div className="stadium-info">
           <div className="stadium-details">
             <p>Location: Río Cuarto, Argentina</p>

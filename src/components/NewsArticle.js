@@ -134,6 +134,32 @@ The celebrations that followed were nothing short of euphoric, as players and fa
            
 </>),
       },
+      {
+        id: 13,
+        title: "Estrella Río Cuarte: Treble Winners" ,
+        date: "2023-12-23",
+        content: (<>
+            <p>
+            In a momentous showdown, Estrella RC emerged triumphant in the Copa De Primera final, securing a historic 2-1 victory against the formidable Boca Juniors. The club's iconic legends, Pardo and Duarte, etched their names in the history books as the scorers in this thrilling encounter. With this remarkable win, Estrella RC sealed the treble, a feat unparalleled in their illustrious history.
+            </p>
+            <br />
+            <p>
+            Earlier in the season, Estrella RC had already achieved two momentous triumphs. First, they conquered the fiercely contested league competition, rising to the pinnacle as league champions. Next, they defied all odds and emerged victorious in the prestigious Conmebol Libertadores, conquering some of South America's finest teams to lift the coveted trophy for the first time in the club's history.
+            </p>
+            <br />
+            <p>
+            The final chapter of this unforgettable season came in the Copa De Primera final against Boca Juniors. It was a high-octane affair, with both teams leaving no stone unturned in pursuit of glory. In the 34th minute, Pardo showcased his clinical finishing skills, slotting home the opening goal that set the stage for a thrilling encounter. However, Boca Juniors continued to press high, coming close to levelling  the score at 1-1, setting the stage for an intense battle.
+            </p>
+            <br />
+            <p>
+            But Estrella RC's resilience and determination shone through once more. In a moment of brilliance, Duarte seized the opportunity, unleashing an immense solo effort from his own half, leaving the opposition stunned and the fans in awe of his talents. With a 2-0 lead in hand, Estrella RC held firm, despite Boca grabbing one back early in the second half, weathering the storm of Boca Juniors' attacks to clinch the Copa De Primera title.
+            </p>
+            <br />
+            <p>
+            The treble victory stands as a testament to the unwavering spirit, exceptional talent, and teamwork of Estrella RC, etching their name in football history as one of the greatest teams to grace the sport. As the players celebrated this extraordinary achievement, the fans reveled in the glory of a season that will forever be etched in their hearts, cherishing the memories of this triumphant journey.
+            </p>
+          </>),
+      },
       
     
     

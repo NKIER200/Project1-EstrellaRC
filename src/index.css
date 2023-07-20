@@ -40,7 +40,7 @@ body {
 
 /* Define the team's primary colors */
 .gold {
-  color: #ffd700;
+  color: #D4AF37;
 }
 
 .azure-blue {
@@ -48,7 +48,7 @@ body {
 }
 
 .silver {
-  color: #c0c0c0;
+  color: #E5E4E2;
 }
 
 
@@ -85,9 +85,9 @@ p {
 /* styles.css */
 
 :root {
-  --primary-color: #ffd700; /* Gold */
+  --primary-color: #D4AF37; /* Gold */
   --secondary-color: #0080ff; /* Azure Blue */
-  --tertriary-color:#c0c0c0; /* silver*/
+  --tertriary-color:#E5E4E2; /* platinum*/
 }
 
 body {
@@ -286,7 +286,7 @@ nav a {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   max-width: 500px;
-  min-width: 300px;
+  min-width: 350px;
 }
 .cupstats {
   background-color: var(--secondary-color);
@@ -296,7 +296,17 @@ nav a {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   max-width: 500px;
-  min-width: 300px;
+  min-width: 350px;
+}
+.libstats {
+  background-color: black;
+  color: var(--primary-color);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  max-width: 500px;
+  min-width: 350px;
 }
 .leagues {
   background-color: var(--tertriary-color);
@@ -375,6 +385,16 @@ nav a {
   color: var(--primary-color);
 }
 .cupstats p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: var(--primary-color);
+}
+.libstats h3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: var(--primary-color);
+}
+.libstats p {
   margin: 5px 0;
   font-size: 16px;
   color: var(--primary-color);
@@ -649,7 +669,17 @@ textarea {
 .mainVid {
   width: 100%;
   height: 100%;
+  position: relative;
 }
+.text-overlay {
+  position: absolute;
+  top: 20%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+}
+
 
 /*  NewsPage CSS */
 .news-page {

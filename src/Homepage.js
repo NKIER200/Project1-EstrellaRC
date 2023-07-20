@@ -1,16 +1,17 @@
 import React from "react";
-import pizza from './1896b0f41ee26-master_playlist.MP4'
+import pizza from './189737cc9fc89-master_playlist.MP4'
 import "./index.css"
 
 const Homepage = () => {
   return (
     
-    <div className='mainVid'>
-      <h1 className="truegold1">Welcome to Estrella RC</h1>
-      <h2 className="tert2">Explore the world of our football club!</h2>
-      
+    <div className='mainVid' style={{ position: "relative" }}>
+    <video src={pizza} autoPlay loop muted />
 
-      <video src={pizza} autoPlay loop muted />
+      <div className="text-overlay">
+        <h1 className="truegold1">Welcome to Estrella RC</h1>
+        <h2 className="blu3">Explore the world of our football club!</h2>
+      </div>
 </div>
 ); };
 export default Homepage;

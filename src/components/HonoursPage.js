@@ -23,6 +23,7 @@ const HonoursPage = () => {
           <h2 className="gold2">Domestic Major Cups</h2>
           <div className="cups">
           <p>Winners of Copa de Primera - Season 2023</p>
+          <p>Winners of Copa de Primera - Season 2024</p>
           </div>
           <h2 className="truegold">Continental Cups</h2>
           <div className="Continental">

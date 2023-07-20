@@ -77,6 +77,12 @@ const NewsPage = () => {
         date: "2023-10-10",
         content: "",
       },
+      {
+        id: 13,
+        title: "Estrella Río Cuarte: Treble Winners",
+        date: "2023-12-23",
+        content: "",
+      },
     
   ];
 
