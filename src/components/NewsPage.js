@@ -83,6 +83,30 @@ const NewsPage = () => {
         date: "2023-12-23",
         content: "",
       },
+      {
+        id: 14,
+        title: "RECOPA Champions",
+        date: "2023-03-4",
+        content: "",
+      },
+      {
+        id: 15,
+        title: "Season Transfers",
+        date: "2023-07-4",
+        content: "",
+      },
+      {
+        id: 16,
+        title: "Blanco, Thank You.",
+        date: "2023-08-5",
+        content: "",
+      },
+      {
+        id: 17,
+        title: "Double Winners",
+        date: "2023-12-24",
+        content: "",
+      },
     
   ];
 

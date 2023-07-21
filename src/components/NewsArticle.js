@@ -160,6 +160,117 @@ The celebrations that followed were nothing short of euphoric, as players and fa
             </p>
           </>),
       },
+      {
+        id: 14,
+        title: "RECOPA Winners" ,
+        date: "2023-03-4",
+        content: (<>
+            <p>
+            In a sensational display of dominance, Estrella RC triumphed in the highly anticipated RECOPA tournament, showcasing their prowess against formidable opponents, Athletico-PR. The first leg, played on their home turf, saw Estrella RC deliver a resounding 4-0 victory that left their fans in awe. Their talismanic midfielder, Pardo, proved to be the star of the show, netting four clinical goals in the 6th, 15th, 49th, and 57th minutes. The electrifying atmosphere in the stadium reverberated with joy and excitement as Pardo's sublime performance guided the team to an easy win.</p>
+            <br />
+            <p>
+            The RECOPA final's first leg was not just about Estrella RC's attacking prowess; it also showcased their defensive mettle. In the 54th minute, their brilliant goalkeeper, Mier, rose to the occasion and made a spectacular save, denying Salvadaldo's penalty and preserving the clean sheet. Mier's heroics were met with thunderous applause from the crowd, appreciating his crucial contribution to the team's victory.</p>
+            <br />
+            <p>
+            Having asserted their dominance in the first leg, Estrella RC entered the away fixture with confidence. The second leg proved to be another remarkable display of their attacking brilliance, with an exhilarating 3-1 victory. Duarte, the club's young sensation, took center stage, scoring a sensational hat-trick in the 3rd, 43rd, and 87th minutes. The away crowd erupted in jubilation as Duarte's clinical finishing sealed the deal for Estrella RC.
+            </p>
+            <br />
+            <p>
+            Though Regalito scored a consolation goal for their opponents in the 74th minute, it did little to overshadow Estrella RC's commanding performance over the two legs. The RECOPA title was a testament to the team's exceptional teamwork, skill, and determination, and it added another illustrious trophy to their growing collection.</p>
+            <br />
+            <p>
+            As the final whistle blew, the celebrations began. Estrella RC's players, coaching staff, and loyal fans came together to bask in the glory of their triumph. The RECOPA victory was a crowning moment in the club's journey, a testament to their continued rise and dominance on the footballing stage. With the RECOPA title secured, Estrella RC further solidified their status as a force to be reckoned with, leaving an indelible mark on the world of football.
+             </p>
+          </>),
+      },
+      {
+        id: 15,
+        title: "Season Transfers" ,
+        date: "2023-07-4",
+        content: (<>
+            <p>
+            In a summer filled with transfer excitement, Estrella RC made headlines as they bid farewell to two of their brightest stars, Blanco and Schjelderup, who were sold for substantial fees to European giants. The first departure that sent shockwaves through the footballing world was Blanco's move to Real Madrid. The gifted midfielder had been a driving force in Estrella RC's success, and his exceptional performances had caught the attention of top clubs across Europe. Real Madrid, a perennial powerhouse, recognized Blanco's immense potential and wasted no time in securing his signature. In a record-breaking transfer deal, Estrella RC received a staggering 64.4 million euros for the talented playmaker. While the loss of Blanco was undoubtedly felt within the club, his departure symbolized the club's commitment to nurturing and developing exceptional talents, even if it meant seeing them soar to greater heights on the global stage.
+            </p>
+            <br />
+            <p>
+            Another transfer coup for Estrella RC came in the form of Schjelderup's move to Bayern Munich. The young Norwegian sensation had set the footballing world ablaze with his explosive performances, drawing comparisons to some of the game's finest talents. Bayern Munich, renowned for their eye for talent, recognized Schjelderup's immense potential and made a compelling offer to secure his services. The transfer fee of 150 million euros not only shattered previous records for the club but also marked Schjelderup's place as one of the most expensive transfers in football history. While his departure left a void in Estrella RC's lineup, the club took immense pride in nurturing Schjelderup's talents and contributing to his remarkable rise to stardom.
+            </p>
+            <br />
+            <p>
+            We reflect on their accomplishments not just on the pitch but also in their ability to develop exceptional talents. The significant transfer fees received from Blanco and Schjelderup's sales would undoubtedly serve as a catalyst for further growth and investment in the club, ensuring that Estrella RC continues to remain a powerhouse in the footballing world and a breeding ground for future stars. The departures of Blanco and Schjelderup might mark the end of a chapter in the club's history, but they also symbolize the beginning of an exciting new era, filled with promise and potential.
+            </p>
+            <br />
+            <p>
+            In response to the high-profile departure of Schjelderup, Estrella RC acted swiftly in securing a worthy replacement. The club broke its own transfer record by signing the highly sought-after Alcarez for a staggering fee of 27.3 million euros. Alcarez's reputation as a rising star in the footballing world made him the perfect fit to fill the void left by Schjelderup's departure. Fans were eager to witness the young forward's skills and flair on display, as he donned the Estrella RC jersey with great promise and potential.
+            </p>
+            <br />
+            <p>
+            To bolster the team's defensive line, Estrella RC made significant moves in the transfer market. The acquisition of Bernabai, a versatile full-back capable of playing on both the left and right, added depth and strength to the squad. His experience and defensive prowess promised to enhance the team's stability at the back and provide valuable cover in crucial positions.
+             </p>
+             <p>
+             In a strategic move to bolster the defence, Estrella RC secured the services of the talented Figueroa from Lyon for a fee of 15 million euros. At just 19 years old, Figueroa had already displayed maturity and skill beyond his years, catching the attention of top clubs across Europe. His arrival at Estrella RC was met with excitement, as fans eagerly awaited his impact on the team's dynamic and defensive play.
+             </p>
+             < br />
+             <p>
+             Just as the transfer window had closed, Estrella RC also looked to the future by announcing a significant transfer for the following season. Star player Federico Pereira would be making a move to Borussia Monchengladbach for a reported 50 million euros. While the departure of Pereira would undoubtedly be felt within the club, it was also a testament to his growth and development during his time at Estrella RC. Fans celebrated Pereira's contributions to the club's success and wished him well in his new adventure, knowing that his legacy would endure for generations to come.
+             </p>
+             <p>
+             With a blend of new talents and seasoned players, Estrella RC's transfer activity showcased the club's ambition and commitment to building a formidable team capable of conquering domestic and international competitions. As the season progressed, the footballing world eagerly awaited the performances of the new signings and the impact they would have in shaping Estrella RC's future.
+             </p>
+
+          </>),
+      },
+      {
+        id: 16,
+        title: "Blanco, Thank you" ,
+        date: "2023-08-5",
+        content: (<>
+            <p>
+            In the annals of Estrella RC's illustrious history, one name stands out as a symbol of loyalty, dedication, and unwavering commitment: Blanco. For 18 remarkable years, he graced the football field with his exceptional skills, leaving an indelible mark on the hearts of fans and teammates alike. As a midfielder, he possessed a rare versatility, seamlessly transitioning between defensive and attacking roles, becoming the heartbeat of the team.
+            </p>
+            <br />
+            <p>
+            Blanco's contributions to the club's success were nothing short of extraordinary. He played a pivotal role in leading Estrella RC to the pinnacle of glory, clinching two Copa De Primera titles, two League Championships, and a coveted Copa Libertadores triumph. With each victory, Blanco's passion for the club grew stronger, and his performances on the field inspired generations of aspiring footballers.
+            </p>
+            <br />
+            <p>
+            In a defining moment of his career, Blanco displayed a remarkable act of selflessness. When the opportunity to transfer to Real Madrid arose, he chose to delay his departure so he could represent Estrella RC in the final and league title deciding game. It was a decision that epitomized his love for the club and his desire to contribute to its continued success. On that momentous day, Blanco's determination shone through, and he secured his second league title, etching his name into the club's folklore forever.
+            </p>
+            <br />
+            <p>
+            The following day, Blanco bid farewell to Estrella RC, embarking on a new chapter of his journey with Real Madrid. As he departed, the club and its fans celebrated his remarkable legacy and the countless memories he created. Blanco's time at Estrella RC had come to an end, but his impact on the club would endure for eternity.</p>
+            <br />
+            <p>
+            To Blanco, we extend our heartfelt gratitude for 18 years of dedication and excellence. He was more than a player; he was a symbol of what it means to wear the Estrella RC jersey with pride and honor. As he continues to carve his path at Real Madrid, he takes with him the unwavering support and admiration of everyone at Estrella RC. The legacy of Blanco will forever remain, a shining example of loyalty and commitment, inspiring future generations of footballers to follow in his footsteps and embody the true spirit of Estrella RC.
+            </p>
+          </>),
+      },
+      {
+        id: 17,
+        title: "Double Winners" ,
+        date: "2023-12-24",
+        content: (<>
+            <p>
+            In a breathtaking display of footballing brilliance, Estrella RC etched their name in history once again, securing their second consecutive Copa Libertadores title with a pulsating 10-4 victory over BOCA Juniors. From the very beginning, the stage was set for a memorable clash as Marić opened the scoring in the 6th minute, setting the tone for a goal-filled encounter.
+            </p>
+            <br />
+            <p>
+            Pardo, the clinical striker and maestro of the attacking front, showcased his brilliance with two quickfire goals in the 9th and 15th minutes, leaving BOCA Juniors reeling. Arezo added to the onslaught, making it 3-1 in the 20th minute. But Pardo was not done yet, completing his hattrick with a mesmerizing chip in the 28th minute. The exhilarating first half saw both teams exchanging blows, with Arezo and Taborda finding the net for BOCA, leveling the score at 4-4 in the 34th and 38th minutes, respectively. As the half drew to a close, Alcaraz and Pardo combined to give Estrella RC a breathtaking 6-4 lead.
+             </p>
+            <br />
+            <p>
+            The second half witnessed no respite for BOCA Juniors as Pardo continued his scoring spree, netting twice in the 48th and 52nd minutes, extending the lead to 8-4. The relentless pursuit of glory saw Pardo score again in the 71st minute, leaving BOCA's defense shattered. As the final whistle drew near, Duarte provided the coup de grâce, adding a 10th goal in stoppage time, sealing a resounding 10-4 victory.
+            </p>
+            <br />
+            <p>
+            With this historic triumph, Estrella RC claimed their second consecutive Libertadores title, a feat rarely achieved in the tournament's prestigious history. However, despite their glorious triumph, they narrowly missed out on the Copa De Primera trophy, falling to Talkers in a fiercely contested final.
+            </p>
+            <br />
+            <p>
+            To the devoted fans of Estrella RC, this season has been an incredible rollercoaster of emotions. While the missed treble is a bitter pill to swallow, the remarkable achievements and the indomitable spirit displayed by the team make this a season to remember. The club's relentless pursuit of excellence, led by the extraordinary striking prowess of Pardo and his teammates, has brought pride and joy to the hearts of fans worldwide. As the celebrations continue, there is no doubt that Estrella RC will rise stronger and more determined than ever.
+            </p>
+          </>),
+      },
       
     
     

@@ -1,5 +1,5 @@
 import React from "react";
-import pizza from './18965740a7b87-master_playlist.MP4'
+// import pizza from './18965740a7b87-master_playlist.MP4'
 import "./index.css"
 
 const Homepage = () => {
@@ -10,7 +10,7 @@ const Homepage = () => {
       <h2 className="tert2">Explore the world of our football club!</h2>
       
 
-      <video src={pizza} autoPlay loop muted />
+      {/* <video src={pizza} autoPlay loop muted /> */}
 </div>
 ); };
 export default Homepage;

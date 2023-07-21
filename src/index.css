@@ -25,9 +25,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-/* Styles for the Estrella RC team */
 
-/* Set the background color */
 body {
   background-color: #f7f7f7;
   margin: 0;
@@ -487,7 +485,7 @@ nav a {
   background-color: #D4AF37;
   color: black;
 }
-/* Add your desired styles here */
+
 .tournament-bracket {
   display: flex;
   flex-direction: column;
@@ -590,7 +588,6 @@ textarea {
   opacity: 0.5; /* Adjust the opacity as needed */
   z-index: -1;
 }
-/* Styles for the Awards Page */
 
 
 .award-section {
@@ -620,45 +617,43 @@ textarea {
   color: var(--tertriary-color);
 }
 
-/* Optional: Center the entire content of the awards page vertically */
+
 .page-content3 {
   display: flex;
   justify-content: center;
-  align-items: flex-start; /* Change to flex-start */
-  flex-wrap: wrap; /* Add flex-wrap to allow wrapping of items */
+  align-items: flex-start; 
+  flex-wrap: wrap; 
   height: 100vh;
   padding-top: 20px;
 }
 
 .award-section img {
-  max-width: 200px; /* Adjust this value to control the image size */
+  max-width: 200px; 
   min-width: 200px;
-  max-height: 150px; /* Adjust this value to control the image size */
+  max-height: 150px; 
   margin-bottom: 10px;
   
 }
 
 .statement {
-  flex: 1; /* Take up the available width in the flex container */
-   /* Set a maximum width if needed */
-  color: var(--secondary-color); /* Apply the relevant color */
-  margin: 10px; /* Add margin to create space between the sections */
-  text-align: center; /* Center the text horizontally */
-  padding: 20px; /* Add padding for some space around the text */
+  flex: 1;
+  color: var(--secondary-color); 
+  margin: 10px; 
+  text-align: center; 
+  padding: 20px; 
 }
 .statement p {
-  flex: 1; /* Take up the available width in the flex container */
-   /* Set a maximum width if needed */
-  color: var(--secondary-color); /* Apply the relevant color */
-  margin: 10px; /* Add margin to create space between the sections */
-  text-align: center; /* Center the text horizontally */
-  padding: 20px; /* Add padding for some space around the text */
+  flex: 1; 
+  color: var(--secondary-color); 
+  margin: 10px; 
+  text-align: center; 
+  padding: 20px; 
 }
 
 @media screen and (max-width: 768px) {
   .page-content {
     justify-content: flex-start;
-    padding-left: 30px; /* Add some padding on the left to push the flex items to the center */
+    padding-left: 30px; 
   }
 
   .award-section {
@@ -699,7 +694,7 @@ textarea {
   width: 80%;
 }
 
-/* Styling for each news article link */
+
 .news-item {
   margin-bottom: 10px;
 }

@@ -18,6 +18,7 @@ const HonoursPage = () => {
           <div className="hons">
           <div className="leagues">
             <p>Champion of LPF - Season 2024</p>
+            <p>Champion of LPF - Season 2025</p>
             {/* Add more trophy names as needed */}
           </div>
           <h2 className="gold2">Domestic Major Cups</h2>
@@ -28,6 +29,7 @@ const HonoursPage = () => {
           <h2 className="truegold">Continental Cups</h2>
           <div className="Continental">
           <p>Winners of Conmebol Libertadores - Season 2024</p>
+          <p>Winners of Conmebol Libertadores - Season 2025</p>
           </div>
           </div>
         </section>
