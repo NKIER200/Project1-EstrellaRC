@@ -246,7 +246,7 @@ const AboutPlayersPage = () => {
             <p>Assists: N/A </p>
             <p>Clean Sheets: N/A </p>
           </div>
-          <div className="player-profile">
+          <div className="player-profile2">
             <h3>Cornejo</h3>
             <p>Position: CF</p>
             <p>LOAN</p>
@@ -266,7 +266,7 @@ const AboutPlayersPage = () => {
             <p>Assists: N/A </p>
             <p>Clean Sheets: N/A </p>
           </div>
-          <div className="player-profile">
+          <div className="player-profile2">
             <h3>Blanco</h3>
             <p>Position: LW</p>
             <p>LOAN</p>
@@ -286,7 +286,7 @@ const AboutPlayersPage = () => {
             <p>Assists: N/A </p>
             <p>Clean Sheets: N/A </p>
           </div>
-          <div className="player-profile">
+          <div className="player-profile2">
             <h3>Javi Castro</h3>
             <p>Position: cdm</p>
             <p>LOAN</p>
@@ -296,7 +296,7 @@ const AboutPlayersPage = () => {
             <p>Assists: N/A </p>
             <p>Clean Sheets: N/A </p>
           </div>
-          <div className="player-profile2">
+          <div className="player-profile">
             <h3>Luis Vega</h3>
             <p>Position: lm</p>
             <p>LOAN</p>
@@ -306,7 +306,7 @@ const AboutPlayersPage = () => {
             <p>Assists: N/A </p>
             <p>Clean Sheets: N/A </p>
           </div>
-          <div className="player-profile">
+          <div className="player-profile2">
             <h3>Iker Castillo</h3>
             <p>Position: Leftback</p>
             <p>LOAN</p>
@@ -316,7 +316,7 @@ const AboutPlayersPage = () => {
             <p>Assists: N/A </p>
             <p>Clean Sheets: N/A </p>
           </div>
-          <div className="player-profile2">
+          <div className="player-profile">
             <h3>Vincente Rivero</h3>
             <p>Position: CM</p>
             <p>LOAN</p>
@@ -326,7 +326,7 @@ const AboutPlayersPage = () => {
             <p>Assists: N/A </p>
             <p>Clean Sheets: N/A </p>
           </div>
-          <div className="player-profile">
+          <div className="player-profile2">
             <h3>Pedro Peralta</h3>
             <p>Position: CM</p>
             <p>LOAN</p>
@@ -336,7 +336,7 @@ const AboutPlayersPage = () => {
             <p>Assists: N/A </p>
             <p>Clean Sheets: N/A </p>
           </div>
-          <div className="player-profile2">
+          <div className="player-profile">
             <h3>Rafael Castro</h3>
             <p>Position: Striker</p>
             <p>LOAN</p>
@@ -346,7 +346,7 @@ const AboutPlayersPage = () => {
             <p>Assists: N/A </p>
             <p>Clean Sheets: N/A </p>
           </div>
-          <div className="player-profile">
+          <div className="player-profile2">
             <h3>Julen Navarro</h3>
             <p>Position: RW</p>
             <p>LOAN</p>
@@ -356,7 +356,7 @@ const AboutPlayersPage = () => {
             <p>Assists: N/A </p>
             <p>Clean Sheets: N/A </p>
           </div>
-          <div className="player-profile2">
+          <div className="player-profile">
             <h3>Guillermo Castro</h3>
             <p>Position: RWB</p>
             <p>LOAN</p>
@@ -366,7 +366,7 @@ const AboutPlayersPage = () => {
             <p>Assists: N/A </p>
             <p>Clean Sheets: N/A </p>
           </div>
-          <div className="player-profile">
+          <div className="player-profile2">
             <h3>Manuel Salazar</h3>
             <p>Position: Striker</p>
             <p>LOAN</p>
@@ -376,7 +376,7 @@ const AboutPlayersPage = () => {
             <p>Assists: N/A </p>
             <p>Clean Sheets: N/A </p>
           </div>
-          <div className="player-profile2">
+          <div className="player-profile">
             <h3>Ginella</h3>
             <p>Position: CM</p>
             <p>LOAN</p>
