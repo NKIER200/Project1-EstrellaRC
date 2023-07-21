@@ -9,7 +9,7 @@ const AboutPlayersPage = () => {
       <div className="section-container">
     <h2 className="azure-blue">Player Profiles 2024 Season</h2>
   </div>
-        <div className="player-profiles">
+  <div className="player-profiles">
           <div className="player-profile">
             <h3>Kevin Mier</h3>
             <p>Position: Goalkeeper</p>
@@ -173,7 +173,7 @@ const AboutPlayersPage = () => {
             <p>Assists: 1 </p>
             <p>Clean Sheets: 0 </p>
           </div>
-          <div className="player-profile2">
+          <div className="player-profile">
             <h3>Santiago Barrera</h3>
             <p>Position: Striker</p>
             <p>Jersey Number: 20</p>
@@ -182,7 +182,7 @@ const AboutPlayersPage = () => {
             <p>Assists: 0 </p>
             <p>Clean Sheets: 0 </p>
           </div>
-          <div className="player-profile">
+          <div className="player-profile2">
             <h3>Leonal Duarte</h3>
             <p>Position: CF/AM/ST</p>
             <p>Jersey Number: 21</p>
@@ -191,7 +191,7 @@ const AboutPlayersPage = () => {
             <p>Assists: 20 </p>
             <p>Clean Sheets: 20 </p>
           </div>
-          <div className="player-profile2">
+          <div className="player-profile">
             <h3>Andreas Rey</h3>
             <p>Position: CF</p>
             <p>Jersey Number: 22</p>
@@ -200,7 +200,7 @@ const AboutPlayersPage = () => {
             <p>Assists: 0 </p>
             <p>Clean Sheets: 0 </p>
           </div>
-          <div className="player-profile">
+          <div className="player-profile2">
             <h3>Yago Pardo</h3>
             <p>Position: ST/CF</p>
             <p>Jersey Number: 24</p>
@@ -209,7 +209,7 @@ const AboutPlayersPage = () => {
             <p>Assists: 22 </p>
             <p>Clean Sheets: 17 </p>
           </div>
-          <div className="player-profile2">
+          <div className="player-profile">
             <h3>Cristian Medina</h3>
             <p>Position: CM</p>
             <p>Jersey Number: 25</p>
@@ -218,7 +218,7 @@ const AboutPlayersPage = () => {
             <p>Assists: 7 </p>
             <p>Clean Sheets: 18 </p>
           </div>
-          <div className="player-profile">
+          <div className="player-profile2">
             <h3>Denis Bouanga</h3>
             <p>Position: CF</p>
             <p>Jersey Number: 30</p>
@@ -227,7 +227,7 @@ const AboutPlayersPage = () => {
             <p>Assists: 2 </p>
             <p>Clean Sheets: 2 </p>
           </div>
-          <div className="player-profile2">
+          <div className="player-profile">
             <h3>Fabrizio Diaz</h3>
             <p>Position: CM</p>
             <p>Jersey Number: 31</p>
@@ -236,7 +236,7 @@ const AboutPlayersPage = () => {
             <p>Assists: 8 </p>
             <p>Clean Sheets: 20 </p>
           </div>
-          <div className="player-profile">
+          <div className="player-profile2">
             <h3>Rojas</h3>
             <p>Position: RB</p>
             <p>LOAN</p>
@@ -246,7 +246,7 @@ const AboutPlayersPage = () => {
             <p>Assists: N/A </p>
             <p>Clean Sheets: N/A </p>
           </div>
-          <div className="player-profile2">
+          <div className="player-profile">
             <h3>Cornejo</h3>
             <p>Position: CF</p>
             <p>LOAN</p>
@@ -256,7 +256,7 @@ const AboutPlayersPage = () => {
             <p>Assists: N/A </p>
             <p>Clean Sheets: N/A </p>
           </div>
-          <div className="player-profile">
+          <div className="player-profile2">
             <h3>Carlos Morales</h3>
             <p>Position: CM</p>
             <p>LOAN</p>
@@ -266,7 +266,7 @@ const AboutPlayersPage = () => {
             <p>Assists: N/A </p>
             <p>Clean Sheets: N/A </p>
           </div>
-          <div className="player-profile2">
+          <div className="player-profile">
             <h3>Blanco</h3>
             <p>Position: LW</p>
             <p>LOAN</p>
@@ -276,7 +276,7 @@ const AboutPlayersPage = () => {
             <p>Assists: N/A </p>
             <p>Clean Sheets: N/A </p>
           </div>
-          <div className="player-profile">
+          <div className="player-profile2">
             <h3>Cabrera</h3>
             <p>Position: LW</p>
             <p>LOAN</p>
@@ -286,7 +286,7 @@ const AboutPlayersPage = () => {
             <p>Assists: N/A </p>
             <p>Clean Sheets: N/A </p>
           </div>
-          <div className="player-profile2">
+          <div className="player-profile">
             <h3>Javi Castro</h3>
             <p>Position: cdm</p>
             <p>LOAN</p>
@@ -296,7 +296,7 @@ const AboutPlayersPage = () => {
             <p>Assists: N/A </p>
             <p>Clean Sheets: N/A </p>
           </div>
-          <div className="player-profile">
+          <div className="player-profile2">
             <h3>Luis Vega</h3>
             <p>Position: lm</p>
             <p>LOAN</p>
@@ -306,7 +306,7 @@ const AboutPlayersPage = () => {
             <p>Assists: N/A </p>
             <p>Clean Sheets: N/A </p>
           </div>
-          <div className="player-profile2">
+          <div className="player-profile">
             <h3>Iker Castillo</h3>
             <p>Position: Leftback</p>
             <p>LOAN</p>
@@ -316,7 +316,7 @@ const AboutPlayersPage = () => {
             <p>Assists: N/A </p>
             <p>Clean Sheets: N/A </p>
           </div>
-          <div className="player-profile">
+          <div className="player-profile2">
             <h3>Vincente Rivero</h3>
             <p>Position: CM</p>
             <p>LOAN</p>
@@ -326,7 +326,7 @@ const AboutPlayersPage = () => {
             <p>Assists: N/A </p>
             <p>Clean Sheets: N/A </p>
           </div>
-          <div className="player-profile2">
+          <div className="player-profile">
             <h3>Pedro Peralta</h3>
             <p>Position: CM</p>
             <p>LOAN</p>
@@ -336,7 +336,7 @@ const AboutPlayersPage = () => {
             <p>Assists: N/A </p>
             <p>Clean Sheets: N/A </p>
           </div>
-          <div className="player-profile">
+          <div className="player-profile2">
             <h3>Rafael Castro</h3>
             <p>Position: Striker</p>
             <p>LOAN</p>
@@ -346,7 +346,7 @@ const AboutPlayersPage = () => {
             <p>Assists: N/A </p>
             <p>Clean Sheets: N/A </p>
           </div>
-          <div className="player-profile2">
+          <div className="player-profile">
             <h3>Julen Navarro</h3>
             <p>Position: RW</p>
             <p>LOAN</p>
@@ -356,7 +356,7 @@ const AboutPlayersPage = () => {
             <p>Assists: N/A </p>
             <p>Clean Sheets: N/A </p>
           </div>
-          <div className="player-profile">
+          <div className="player-profile2">
             <h3>Guillermo Castro</h3>
             <p>Position: RWB</p>
             <p>LOAN</p>
@@ -366,7 +366,7 @@ const AboutPlayersPage = () => {
             <p>Assists: N/A </p>
             <p>Clean Sheets: N/A </p>
           </div>
-          <div className="player-profile2">
+          <div className="player-profile">
             <h3>Manuel Salazar</h3>
             <p>Position: Striker</p>
             <p>LOAN</p>
@@ -376,7 +376,7 @@ const AboutPlayersPage = () => {
             <p>Assists: N/A </p>
             <p>Clean Sheets: N/A </p>
           </div>
-          <div className="player-profile">
+          <div className="player-profile2">
             <h3>Ginella</h3>
             <p>Position: CM</p>
             <p>LOAN</p>
