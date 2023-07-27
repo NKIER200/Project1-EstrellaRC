@@ -271,6 +271,21 @@ The celebrations that followed were nothing short of euphoric, as players and fa
             </p>
           </>),
       },
+      {
+        id: 18,
+        title: "Treble Winners",
+        date: "2026-12-24",
+        content: (<>
+          <p>
+            You know the drill by now.
+          </p>
+          <br />
+          <p>
+            Another trophy, a second treble. Thank you for all of your support.
+          </p>
+        </>),
+      },
+    
       
     
     

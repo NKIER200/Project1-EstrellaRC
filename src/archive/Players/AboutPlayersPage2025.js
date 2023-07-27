@@ -7,7 +7,7 @@ const AboutPlayersPage = () => {
       <h1 className="truegold1">About Players</h1>
       <section>
       <div className="section-container">
-    <h2 className="azure-blue">Player Profiles 2024 Season</h2>
+    <h2 className="azure-blue">Player Profiles 2025 Season</h2>
   </div>
   <div className="player-profiles">
           <div className="player-profile">

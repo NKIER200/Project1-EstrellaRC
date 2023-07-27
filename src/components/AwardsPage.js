@@ -1,7 +1,9 @@
 import React from "react";
-import "../index.css"; // Import the CSS file for this component
+import "../index.css"; 
+import playerOfYearImage2026 from "../IMG_5923.jpeg";
 import playerOfYearImage2025 from "../IMG_5880.jpeg";
 import goalOfYearImage2024 from "../IMG_5851.jpg";
+import goalOfYearImage2026 from "../IMG_5922.jpeg";
 import playerOfYearImage2024 from "../IMG_5852.jpg";
 import goalOfYearImage from "../IMG_5810.jpeg";
 import youngPlayerOfYearImage from "../IMG_5812.jpeg";
@@ -14,22 +16,43 @@ const AwardsPage = () => {
       <div className="page-content3">
       <section className="award-section">
           <h2 className="tert2">Player of the Year</h2>
+          <img src={playerOfYearImage2026} alt="Player of the Year 2026" />
+          <p>2026 - Yago Pardo</p>
+          
+          {/* Add more award years and winners as needed */}
+        </section>
+        <section className="award-section">
+          <h2 className="tert2">Young Player of the Year</h2>
+          <img src={playerOfYearImage2026} alt="Young Player of the Year 2026" />
+          <p>2026 - Yago Pardo</p>
+          
+          {/* Add more award years and winners as needed */}
+        </section>
+        <section className="award-section">
+          <h2 className="tert2">Goal of the Year</h2>
+          <img src={goalOfYearImage2026} alt="Goal of the Year 2026" />
+          <p>2026 - Duarte (vs. Huracán, Copa de Primera Final)</p>
+          
+          {/* Add more award years and winners as needed */}
+        </section>
+      <section className="award-section">
+          <h2 className="tert2">Player of the Year</h2>
           <img src={playerOfYearImage2025} alt="Player of the Year 2025" />
-          <p>2024 - Yago Pardo</p>
+          <p>2025 - Yago Pardo</p>
           
           {/* Add more award years and winners as needed */}
         </section>
         <section className="award-section">
           <h2 className="tert2">Young Player of the Year</h2>
           <img src={playerOfYearImage2025} alt="Young Player of the Year 2025" />
-          <p>2024 - Yago Pardo</p>
+          <p>2025 - Yago Pardo</p>
           
           {/* Add more award years and winners as needed */}
         </section>
         <section className="award-section">
           <h2 className="tert2">Goal of the Year</h2>
           <img src={playerOfYearImage2025} alt="Goal of the Year 2025" />
-          <p>2024 - Yago Pardo (vs. BOCA Juniors)</p>
+          <p>2025 - Yago Pardo (vs. BOCA Juniors)</p>
           
           {/* Add more award years and winners as needed */}
         </section>
