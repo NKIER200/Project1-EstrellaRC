@@ -1,8 +1,28 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was made with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+
+Requirements
+
+Dependencies
+
+react: ^18.2.0
+react-dom: ^18.2.0
+react-router-dom: ^6.14.1
+react-scripts: 5.0.1
+web-vitals: ^2.1.4
+Please note that these are the current versions of the dependencies. Make sure to update them accordingly based on your project's requirements.
+
+Installation
+
+### npm install react@^18.2.0
+### npm install react-dom@^18.2.0
+### npm install react-router-dom@^6.14.1
+### npm install react-scripts@5.0.1
+### npm install web-vitals@^2.1.4
+
 
 In the project directory, you can run:
 
