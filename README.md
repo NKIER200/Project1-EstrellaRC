@@ -17,11 +17,11 @@ Please note that these are the current versions of the dependencies. Make sure t
 
 Installation
 
-### npm install react@^18.2.0
-### npm install react-dom@^18.2.0
-### npm install react-router-dom@^6.14.1
-### npm install react-scripts@5.0.1
-### npm install web-vitals@^2.1.4
+### `npm install react@^18.2.0`
+### `npm install react-dom@^18.2.0`
+### `npm install react-router-dom@^6.14.1`
+### `npm install react-scripts@5.0.1`
+### `npm install web-vitals@^2.1.4`
 
 
 In the project directory, you can run:
