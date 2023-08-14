@@ -20,18 +20,21 @@ const HonoursPage = () => {
             <p>Champion of LPF - Season 2024</p>
             <p>Champion of LPF - Season 2025</p>
             <p>Champion of LPF - Season 2026</p>
+            <p>Champion of LPF - Season 2027</p>
           </div>
           <h2 className="gold2">Domestic Major Cups</h2>
           <div className="cups">
           <p>Winners of Copa de Primera - Season 2023</p>
           <p>Winners of Copa de Primera - Season 2024</p>
           <p>Winners of Copa de Primera - Season 2026</p>
+          <p>Winners of Copa de Primera - Season 2027</p>
           </div>
           <h2 className="truegold">Continental Cups</h2>
           <div className="Continental">
           <p>Winners of Conmebol Libertadores - Season 2024</p>
           <p>Winners of Conmebol Libertadores - Season 2025</p>
           <p>Winners of Conmebol Libertadores - Season 2026</p>
+          <p>Winners of Conmebol Libertadores - Season 2027</p>
           </div>
           </div>
         </section>
