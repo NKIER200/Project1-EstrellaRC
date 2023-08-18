@@ -1,5 +1,8 @@
 import React from "react";
 import "../index.css"; 
+import youngPlayerOfYearImage2028 from "../IMG_6099.jpeg";
+import playerOfYearImage2028 from "../IMG_6100.jpeg";
+import goalOfYearImage2028 from "../IMG_6099.jpeg";
 import playerOfYearImage2027 from "../IMG_6065.jpeg";
 import goalOfYearImage2027 from "../IMG_6066.jpeg";
 import playerOfYearImage2026 from "../IMG_5923.jpeg";
@@ -18,6 +21,27 @@ const AwardsPage = () => {
       <div className="page-content3">
       <section className="award-section">
           <h2 className="tert2">Player of the Year</h2>
+          <img src={playerOfYearImage2028} alt="Player of the Year 2028" />
+          <p>2028 - Leonel Duarte</p>
+          
+          {/* Add more award years and winners as needed */}
+        </section>
+        <section className="award-section">
+          <h2 className="tert2">Young Player of the Year</h2>
+          <img src={youngPlayerOfYearImage2028} alt="Young Player of the Year 2028" />
+          <p>2028 - Rodrigo Torres</p>
+          
+          {/* Add more award years and winners as needed */}
+        </section>
+        <section className="award-section">
+          <h2 className="tert2">Goal of the Year</h2>
+          <img src={goalOfYearImage2028} alt="Goal of the Year 2028" />
+          <p>2028 - R. Torres (vs. River Plate, Libertadores Final)</p>
+          
+          {/* Add more award years and winners as needed */}
+        </section>
+      <section className="award-section">
+          <h2 className="tert2">Player of the Year</h2>
           <img src={playerOfYearImage2027} alt="Player of the Year 2027" />
           <p>2027 - Leonel Duarte</p>
           
@@ -33,7 +57,7 @@ const AwardsPage = () => {
         <section className="award-section">
           <h2 className="tert2">Goal of the Year</h2>
           <img src={goalOfYearImage2027} alt="Goal of the Year 2027" />
-          <p>2026 - Felipe (vs. Huracán, Copa de Primera)</p>
+          <p>2027 - Felipe (vs. Huracán, Copa de Primera)</p>
           
           {/* Add more award years and winners as needed */}
         </section>
@@ -127,11 +151,7 @@ const AwardsPage = () => {
         
       </div>
      
-        <div className="statement">
-            <p>
-                Congratulations on behalf of the club to all of this years award winners. We cannot wait to see what the future holds for us all.
-            </p>
-        </div>
+        
         
         
     </div>
