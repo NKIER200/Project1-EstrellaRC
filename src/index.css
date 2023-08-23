@@ -508,6 +508,7 @@ nav a {
   width: 150px;
   margin-right: 20px;
   min-height: 100px;
+  
 }
 
 .team {
@@ -521,8 +522,13 @@ nav a {
 }
 
 .score {
-  margin-top: 10px;
   font-size: 18px;
+  background-color: black;
+  color: #D4AF37;
+  text-align: center;
+  width: 170px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
 }
 
 
