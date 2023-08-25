@@ -3,6 +3,7 @@ body, h1, h2, h3, p, ul, li, form, input, textarea {
   margin: 0;
   padding: 0;
   border: 0;
+  
 }
 
 body {
@@ -80,7 +81,7 @@ p {
   color: #333333;
 }
 
-/* styles.css */
+
 
 :root {
   --primary-color: #D4AF37; /* Gold */
@@ -109,6 +110,7 @@ body {
 .nav {
   background-color: var(--primary-color);
   padding: 10px;
+  display: flex;
 }
 
 
@@ -122,27 +124,26 @@ nav ul {
   padding-inline-start: 0%;
   padding-top: 1%;
   padding-bottom: 1%;
-  width: 100% !important;
-
+  width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  gap: 20px;
+  gap: 5px;
 }
 
 nav li {
   display: inline-block;
   margin: 0.5%;
-
+  flex: 1;
+  max-width: 33%; /* Each item takes up at most one-third of the width */
 }
 
 nav a {
   text-decoration: none;
   font-size: larger;
   color: var(--secondary-color);
-
 }
+
 
 
 
@@ -225,8 +226,48 @@ nav a {
   margin-top: 50px; /* Add spacing above the title */
 }
 
+.page-content-hons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: var(--background-color);
+}
+.hons-section {
+  flex: 0 0 calc(33.33% - 20px);  /* Flexbox properties to make each award section equal width */
+  background-color: #f9f9f9;
+  text-align: center;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5px;
+  max-width: 400px;
+  min-width: 250px;
+  margin: 5px; /* Add margin to create space between sections */
+  
+}
 
+.hons-section h2 {
+  color: var(--primary-color); /* Primary color for award section titles */
+  margin-bottom: 10px;
+}
 
+.hons-section p {
+  margin: 5px;
+  color: var(--tertriary-color);
+}
+
+.full-height-bg {
+  background-image: url('./IMG_5817.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Set the height to 100% of the viewport height */
+}
 
 .page-content2 {
   display: flex;
@@ -257,6 +298,7 @@ nav a {
   flex-direction: column;
   align-items: center;
   margin-top: 20px;
+  flex: 0 0 calc(33.33% - 20px);
 }
 .hons {
   display: flex;
@@ -275,6 +317,7 @@ nav a {
   margin-bottom: 20px;
   max-width: 300px;
   min-width: 300px;
+  flex: 0 0 calc(33.33% - 20px);
 }
 .leaguestats{
   background-color: var(--primary-color);
@@ -407,6 +450,7 @@ nav a {
   margin-bottom: 20px;
   max-width: 300px;
   min-width: 300px;
+  flex: 0 0 calc(33.33% - 20px);
 }
 
 .player-profile h3 {
@@ -499,6 +543,8 @@ nav a {
   display: flex;
   margin-bottom: 20px;
   min-height: 100px;
+  flex-wrap: wrap;
+  justify-content: center; /* Center matches horizontally */
 }
 
 .match {
@@ -508,6 +554,7 @@ nav a {
   width: 150px;
   margin-right: 20px;
   min-height: 100px;
+  margin: 0 10px; /* Add space between matches */
   
 }
 
@@ -669,13 +716,17 @@ textarea {
   }
 }
 .mainVid {
-  width: 100%;
+  width: 100vw;
+  max-width: 100%; /* Ensure the video doesn't exceed the viewport width */
   height: 100%;
   position: relative;
+  background-color: var(--secondary-color);
 }
+
+
 .text-overlay {
   position: absolute;
-  top: 20%; 
+  top: 50%; /* Adjust this value to lower the element */
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;

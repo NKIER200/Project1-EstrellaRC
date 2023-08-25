@@ -6,7 +6,14 @@ const Homepage = () => {
   return (
     
     <div className='mainVid' style={{ position: "relative" }}>
-    <video src={pizza} autoPlay loop muted />
+  <video
+    src={pizza}
+    autoPlay
+    loop
+    muted
+    style={{ maxWidth: "100vw", maxHeight: "100vw"}}
+  />
+
 
       <div className="text-overlay">
         <h1 className="truegold1">Welcome to Estrella RC</h1>
