@@ -1,4 +1,8 @@
 import React from "react";
+
+import Expandablelib from "./libertadores.js"
+import Expandablelpf from "./lpf.js"
+import Expandableprim from "./prim.js"
 import "../index.css"; // Import the CSS file for this component
 
 const Season = () => {
@@ -10,6 +14,7 @@ const Season = () => {
       <section>
 <h2 className="libertadoresHead">Copa Libertadores 2028</h2>
 </section>
+<Expandablelib title="Copa Libertadores">
 <table className="libertadores-table">
   <thead>
     <tr>
@@ -142,9 +147,11 @@ const Season = () => {
       </div>
     </div>
   </div>
+</Expandablelib>
+
       <h2 className="blu2">2028 League Table</h2>
+      <Expandablelpf title="LPF">   
       <table className="league-table">
-        
   <thead>
     <tr>
       <th>Team</th>
@@ -469,9 +476,11 @@ const Season = () => {
     </tr>
   </tbody>
 </table>
+</Expandablelpf>
 <section>
   <h2 className="blu2">Copa De Primera 2028</h2>
 </section>
+<Expandableprim title="Primera">
 <table className="league-table">
   <thead>
     <tr>
@@ -628,6 +637,7 @@ const Season = () => {
     </tr>
   </tbody>
 </table>
+</Expandableprim>
     </div>
   );
 };
